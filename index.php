@@ -2,15 +2,16 @@
 // --- FIREBASE CONFIGURATION (Moved to PHP) ---
 
 $firebaseConfig = {
-  apiKey: "AIzaSyAARMNNJuRHgh_iWQHwj3c8GHDos5eqOtM",
-  authDomain: "justbaked-563ce.firebaseapp.com",
-  databaseURL: "https://justbaked-563ce-default-rtdb.firebaseio.com",
-  projectId: "justbaked-563ce",
-  storageBucket: "justbaked-563ce.firebasestorage.app",
-  messagingSenderId: "306944682845",
-  appId: "1:306944682845:web:c6527edb831724ba3996b4",
-  measurementId: "G-0GW7Y2P1KQ"
+  "apiKey" => "AIzaSyAARMNNJuRHgh_iWQHwj3c8GHDos5eqOtM",
+  "authDomain" => "justbaked-563ce.firebaseapp.com",
+  "databaseURL" => "https://justbaked-563ce-default-rtdb.firebaseio.com",
+  "projectId" => "justbaked-563ce",
+  "storageBucket" => "justbaked-563ce.firebasestorage.app",
+  "messagingSenderId" => "306944682845",
+  "appId:" => "1:306944682845:web:c6527edb831724ba3996b4"
 };
+
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json');
@@ -82,7 +83,7 @@ function send_smtp_mail($to, $subject, $body, $user, $pass, $host, $port) {
 
     $headers  = "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
-    $headers .= "From: JavaGoat <{$user}>\r\n";
+    $headers .= "From: Justbaked <{$user}>\r\n";
     $headers .= "To: <{$to}>\r\n";
     $headers .= "Subject: {$subject}\r\n";
 

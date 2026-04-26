@@ -1,14 +1,13 @@
 <?php
 // --- FIREBASE CONFIGURATION ---
 $firebaseConfig = {
-  apiKey: "AIzaSyAARMNNJuRHgh_iWQHwj3c8GHDos5eqOtM",
-  authDomain: "justbaked-563ce.firebaseapp.com",
-  databaseURL: "https://justbaked-563ce-default-rtdb.firebaseio.com",
-  projectId: "justbaked-563ce",
-  storageBucket: "justbaked-563ce.firebasestorage.app",
-  messagingSenderId: "306944682845",
-  appId: "1:306944682845:web:c6527edb831724ba3996b4",
-  measurementId: "G-0GW7Y2P1KQ"
+  "apiKey" => "AIzaSyAARMNNJuRHgh_iWQHwj3c8GHDos5eqOtM",
+  "authDomain" => "justbaked-563ce.firebaseapp.com",
+  "databaseURL" => "https://justbaked-563ce-default-rtdb.firebaseio.com",
+  "projectId" => "justbaked-563ce",
+  "storageBucket" => "justbaked-563ce.firebasestorage.app",
+  "messagingSenderId" => "306944682845",
+  "appId:" => "1:306944682845:web:c6527edb831724ba3996b4"
 };
 
 ?>
