@@ -1,15 +1,16 @@
 <?php
 // --- FIREBASE CONFIGURATION (Moved to PHP) ---
 
-$firebaseConfig = [
-  "apiKey" => "YOUR_API_KEY_HERE",
-  "authDomain" => "YOUR_PROJECT_ID.firebaseapp.com",
-  "databaseURL" => "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-  "projectId" => "YOUR_PROJECT_ID",
-  "storageBucket" => "YOUR_PROJECT_ID.firebasestorage.app",
-  "messagingSenderId" => "YOUR_MESSAGING_SENDER_ID",
-  "appId" => "YOUR_APP_ID"
-];
+$firebaseConfig = {
+  apiKey: "AIzaSyAARMNNJuRHgh_iWQHwj3c8GHDos5eqOtM",
+  authDomain: "justbaked-563ce.firebaseapp.com",
+  databaseURL: "https://justbaked-563ce-default-rtdb.firebaseio.com",
+  projectId: "justbaked-563ce",
+  storageBucket: "justbaked-563ce.firebasestorage.app",
+  messagingSenderId: "306944682845",
+  appId: "1:306944682845:web:c6527edb831724ba3996b4",
+  measurementId: "G-0GW7Y2P1KQ"
+};
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json');
